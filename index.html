@@ -86,7 +86,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
      $.getJSON("Libraries_P.json", function(LP) {
       L.geoJson(LP, {
         pointToLayer: function(feature, latlng) {
-          return L.circleMarker(latlng, {
+          return L.bookMarker(latlng, {
             radius: 5,
             fillColor: "purple",
             color: "purple",
