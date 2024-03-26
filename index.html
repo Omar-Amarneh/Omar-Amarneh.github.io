@@ -77,21 +77,21 @@
         case "Al-Masyoun":
           return "Aqua";
         case "Baten El-Hawa":
-          return "blue";
+          return "Aqua";
         case "City Center":
-          return "Green";
+          return "Aqua";
         case "Old City":
-          return "Orange";
+          return "Aqua";
         case "Al-Wad":
           return "Purple";
         case "The Industrial Area":
-          return "Pink";
+          return "Purple";
         case "Al-Itha'a":
-          return "Gray";
+          return "Purple";
         case "Al-Tireh":
-          return "White";
+          return "Purple";
         default:
-          return "yellow";
+          return "white";
       }
     }
     var zoneLayer;
@@ -117,8 +117,8 @@
         pointToLayer: function(feature, latlng) {
           return L.circleMarker(latlng, {
             radius: 5.2,
-            fillColor: "red",
-            color: "red",
+            fillColor: "white",
+            color: "white",
             weight: 1.2,
             opacity: 1.4,
             fillOpacity: 1
